@@ -46,6 +46,8 @@ All six methods were independently executed for route-grouped outer Fold 1 (Repr
 
 Copyright (c) 2026 Riaz Uddin Mondal. The MATLAB software is distributed under the [MIT License](LICENSE). The license does **not** apply to third-party dependencies or restricted research data. Citation metadata are in [CITATION.cff](CITATION.cff). A persistent DOI may be added after archival publication.
 
-## Responsible use
+## Responsible Use and Data Protection
 
-Do not commit private MAT files, raw measurement logs, sample-level outputs, reference coordinates, or restricted research archives to this repository. The repository's `.gitignore` offers basic safeguards but is not a substitute for reviewing files before publication.
+This repository contains MATLAB source code and documentation intended for research and reproducibility purposes. The original and processed RF fingerprint datasets, raw measurement logs, reference coordinates, route-fold assignments, sample-level positioning results, trained models, and other restricted research materials must not be committed or publicly distributed without appropriate authorization from the relevant rights holders.
+
+The repository's `.gitignore` provides basic safeguards against accidental inclusion of restricted files; however, users are responsible for reviewing all files before committing or publishing them.
