@@ -1,5 +1,21 @@
 # Release notes
 
+## v0.1.2 — Complete MATLAB Source-Code Archive
+
+### Changes
+- Restored the MATLAB source-code folders omitted from the earlier GitHub release.
+- Included the publicly releasable source files for route-grouped 10-fold evaluation, DNN positioning, fingerprint parsing, supporting utilities, and validation.
+- Updated release documentation and citation metadata.
+- Prepared the complete software snapshot for permanent archival through Zenodo.
+
+### Reproducibility
+This release provides the public MATLAB evaluation framework for the outdoor LTE/Wi-Fi RF fingerprint positioning study.
+
+The release does not include restricted RF fingerprint datasets, reference coordinates, trained models, or private research outputs. Reproducing the published numerical results requires authorized access to the relevant datasets.
+
+### Previous Release
+Version v0.1.1 was archived on Zenodo but did not contain all intended MATLAB source-code folders. Version v0.1.2 supersedes that incomplete software snapshot for reproducibility purposes.
+
 ## v0.1.0 — Initial public software release
 
 - Published MATLAB source for outdoor LTE/Wi-Fi RF fingerprint positioning experiments: LSBoost, KNN, AHC, FCM, tuned DNN, and hierarchical FastKAN.
