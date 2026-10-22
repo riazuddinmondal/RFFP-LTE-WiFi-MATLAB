@@ -1,0 +1,15 @@
+*.mat
+*.csv.gz
+*.h5
+*.hdf5
+*.zip
+*.7z
+*.rar
+*.fig
+*.asv
+*.log
+PRIVATE*
+reference/
+restricted/
+data/
+results/private/

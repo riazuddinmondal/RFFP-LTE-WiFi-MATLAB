@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release once a DOI is available."
+type: software
+title: "MATLAB Evaluation Code for Outdoor LTE/Wi-Fi RF Fingerprint Positioning on Held-Out Logs"
+authors:
+  - family-names: Mondal
+    given-names: Riaz Uddin
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/riazuddinmondal/RFFP-LTE-WiFi-MATLAB"
