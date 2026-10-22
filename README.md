@@ -3,7 +3,7 @@
 MATLAB implementations and evaluation utilities for outdoor LTE/Wi-Fi radio-frequency fingerprint positioning (RFFP). The framework compares LSBoost, KNN, agglomerative hierarchical clustering (AHC), fuzzy c-means (FCM), a tuned deep neural network (DNN), and hierarchical FastKAN using route-grouped evaluation.
 
 **Repository:** https://github.com/riazuddinmondal/RFFP-LTE-WiFi-MATLAB  
-**Software version:** 0.1.0  
+**Software version:** 0.1.2  
 **License:** MIT (software only)
 
 ## Contents
@@ -51,3 +51,15 @@ Copyright (c) 2026 Riaz Uddin Mondal. The MATLAB software is distributed under t
 This repository contains MATLAB source code and documentation intended for research and reproducibility purposes. The original and processed RF fingerprint datasets, raw measurement logs, reference coordinates, route-fold assignments, sample-level positioning results, trained models, and other restricted research materials must not be committed or publicly distributed without appropriate authorization from the relevant rights holders.
 
 The repository's `.gitignore` provides basic safeguards against accidental inclusion of restricted files; however, users are responsible for reviewing all files before committing or publishing them.
+
+## Software Release and Archiving
+
+The MATLAB evaluation software is maintained in this GitHub repository and archived through Zenodo for long-term preservation and citation.
+
+Version **v0.1.2** restores the complete publicly releasable MATLAB source-code directory structure, including the 10-fold evaluation, DNN, fingerprint parsing, supporting utilities, and validation folders.
+
+The repository provides implementations and evaluation utilities for LSBoost, KNN, AHC, FCM, DNN, and hierarchical FastKAN approaches to outdoor LTE/Wi-Fi radio-frequency fingerprint positioning.
+
+The original and processed RF fingerprint datasets and other restricted research materials are not included. Reproduction of numerical results requires authorized access to the corresponding research data.
+
+**Permanent software DOI:** To be updated after Zenodo archives v0.1.2.
