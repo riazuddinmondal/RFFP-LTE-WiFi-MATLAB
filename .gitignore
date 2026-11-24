@@ -13,3 +13,15 @@ reference/
 restricted/
 data/
 results/private/
+
+PRIVATE*/
+private*/
+*.mat
+*.npz
+*.npy
+*.pkl
+*.parquet
+*.xlsx
+*.csv
+!public_verification_v0.1.3/*.csv
+environment_report.txt
