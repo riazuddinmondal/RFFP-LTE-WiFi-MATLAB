@@ -1,5 +1,10 @@
 # Release notes
 
+## v0.1.3 — Prepared snapshot (approval pending)
+
+Adds compact MLP/ELM and cross-campaign sources, aggregate verification tables, MATLAB/Python checks and author-side verification report. Excludes the restricted-data export utility and exact extrema columns. No experimental training code changed. New DOI pending publication.
+
+
 ## v0.1.2 — Complete MATLAB Source-Code Archive
 
 ### Changes

@@ -1,9 +1,9 @@
 # Outdoor LTE/Wi-Fi RF Fingerprint Positioning — MATLAB Evaluation Software
 
-MATLAB implementations and evaluation utilities for outdoor LTE/Wi-Fi radio-frequency fingerprint positioning (RFFP). The framework compares LSBoost, KNN, agglomerative hierarchical clustering (AHC), fuzzy c-means (FCM), a tuned deep neural network (DNN), and hierarchical FastKAN using route-grouped evaluation.
+MATLAB implementations and evaluation utilities for outdoor LTE/Wi-Fi radio-frequency fingerprint positioning (RFFP). The framework compares LSBoost, KNN, agglomerative hierarchical clustering (AHC), fuzzy c-means (FCM), a tuned deep neural network (DNN), hierarchical FastKAN, compact MLP and ELM using route-grouped evaluation. Six pipelines are also evaluated across campaigns.
 
 **Repository:** https://github.com/riazuddinmondal/RFFP-LTE-WiFi-MATLAB  
-**Software version:** 0.1.2  
+**Software version:** 0.1.3 (prepared for release; approval pending)  
 **License:** MIT (software only)
 
 ## Contents
@@ -13,6 +13,9 @@ MATLAB implementations and evaluation utilities for outdoor LTE/Wi-Fi radio-freq
 - `rffp_parser/` — aligned fingerprint representation materialization from authorized inputs.
 - `FastKANLayer.m` and `run_RFFP_Hierarchical_FastKAN_V2*.m` — FastKAN implementation and single-/ten-fold runners.
 - `validation/` — selected independent Fold 1 verification scripts and instructions.
+- `rffp_lightweight/` — compact MLP and ELM.
+- `rffp_crosscampaign/` — campaign transfer runners.
+- `public_verification_v0.1.3/` — aggregate tables and no-data verification scripts.
 - `tools/` — environment capture, release checks, and saved-output analysis utilities.
 
 ## Dependencies
@@ -62,4 +65,15 @@ The repository provides implementations and evaluation utilities for LSBoost, KN
 
 The original and processed RF fingerprint datasets and other restricted research materials are not included. Reproduction of numerical results requires authorized access to the corresponding research data.
 
-**Permanent software DOI:** To be updated after Zenodo archives v0.1.2.
+**Earlier version DOI (v0.1.2, author-reported):** https://doi.org/10.5281/zenodo.23567257. This DOI does not cover v0.1.3. New version DOI pending deposit.
+
+
+## Supplementary source and aggregate verification (v0.1.3)
+
+Additional original MATLAB entry points for compact MLP/ELM ten-fold and bidirectional cross-campaign experiments are included in `rffp_lightweight/` and `rffp_crosscampaign/`. Aggregate-only public verification is in `public_verification_v0.1.3/`. See `SOURCE_REVIEW_v0.1.3.md` for audit scope and outstanding checks. **This ZIP is not an approved or published release; original v0.1.2 archival DOI does not cover these additions.** No restricted input data or saved prediction arrays are distributed.
+
+## Verification on 24 November 2026
+
+See [VERIFICATION_REPORT.md](VERIFICATION_REPORT.md) for author-side MATLAB tests, including the ELM match and MLP numerical variation. Static dependency analysis additionally detected System Identification Toolbox for several neural-network runners. All detected products were installed; this is not a minimal-toolbox compatibility test.
+
+For no-data checks, enter `public_verification_v0.1.3/` and run `verify_public_aggregates` in MATLAB or `python verify_public_aggregates.py` in Python. Keep authorized inputs and all generated model outputs outside the repository. The misleadingly named `tools/prepare_public_data.m` was excluded because it retains restricted data. `tools/check_release.m` requires private inputs and is not a public smoke test.

@@ -1,0 +1,8 @@
+Check,Value
+total_observations,118930
+distinct_log_ids,38
+number_outer_folds,10
+log_ids_in_multiple_outer_folds,0
+observations_in_multiple_outer_folds,0
+folds_containing_both_campaigns,10
+finite_error_count_per_method,118930
