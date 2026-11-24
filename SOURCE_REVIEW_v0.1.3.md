@@ -1,6 +1,6 @@
 # Supplementary source inclusion and static review
 
-**Status: release candidate; not approved for public release.** Original v0.1.2 repository files retained, with supplementary MATLAB sources added without changing training logic. `CITATION.cff` schema version corrected to `1.2.0` (software version updated to 0.1.3). Public aggregate verification files are under `public_verification_v0.1.3/`.
+**Status: v0.1.3; public release of supplementary software and aggregate tables confirmed by the author on 24 November 2026.** Original v0.1.2 repository files retained, with supplementary MATLAB sources added without changing training logic. `CITATION.cff` schema version corrected to `1.2.0` (software version updated to 0.1.3). Public aggregate verification files are under `public_verification_v0.1.3/`.
 
 ## Added MATLAB sources
 

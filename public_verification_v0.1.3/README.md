@@ -1,6 +1,6 @@
 # RFFP public benchmark and cross-campaign verification supplement
 
-**Version:** v0.1.3 **RELEASE CANDIDATE — NOT YET PUBLISHED OR COAUTHOR-APPROVED**  
+**Version:** v0.1.3   
 **Main source repository:** https://github.com/riazuddinmondal/RFFP-LTE-WiFi-MATLAB  
 **Existing archival record (earlier release):** https://doi.org/10.5281/zenodo.23567257 (verify version and contents before citing this supplement).
 
@@ -29,7 +29,7 @@ These scripts **actually recalculate** pooled mean error and pooled RMSE from fo
 
 ## Data restriction
 
-No sample-level fingerprints, transmitter identities, geographic coordinates, log-to-fold maps, individual prediction coordinates, individual errors, or trained models are included. Private inputs and all original MAT archives must remain outside public GitHub/Zenodo releases. This candidate still requires a human privacy and ownership review before upload.
+No sample-level fingerprints, transmitter identities, geographic coordinates, log-to-fold maps, individual prediction coordinates, individual errors, or trained models are included. Private inputs and all original MAT archives must remain outside public GitHub/Zenodo releases. The author confirmed public release of the supplementary software and aggregate tables on 24 November 2026.
 
 ## Reproducing with authorized data
 
@@ -37,4 +37,4 @@ See `AUTHORIZED_DATA_REPRODUCTION.md` and `SOURCE_ENTRYPOINTS_AND_CONFIG.md`. Da
 
 ## Status
 
-This is a **release candidate**, not evidence that a GitHub release or new Zenodo version already exists. Python checks passed in the packaging environment and MATLAB checks passed on the author’s R2024a installation. See ../VERIFICATION_REPORT.md. Fold and pooled extrema columns were omitted to minimize disclosure of individual error values.
+This package does not itself establish that a tagged GitHub release or new Zenodo version exists. Python checks passed in the packaging environment and MATLAB checks passed on the author’s R2024a installation. See ../VERIFICATION_REPORT.md. Fold and pooled extrema columns were omitted to minimize disclosure of individual error values.

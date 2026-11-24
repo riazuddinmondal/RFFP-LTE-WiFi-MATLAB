@@ -1,6 +1,6 @@
 # Release verification — 24 November 2026
 
-Status: prepared snapshot, not yet approved or published. Evidence below is from author-provided MATLAB output, not an independent third-party replication.
+Status: v0.1.3; author confirmed public release of supplementary software and aggregate tables. Evidence below is from author-provided MATLAB output, not an independent third-party replication.
 
 ## Environment and scope
 
@@ -26,6 +26,6 @@ MLP completed both candidates (validation means 35.164 and 32.091 m); rerun medi
 
 ## Limitations
 
-No fresh full ten-fold retraining or reverse-direction rerun was performed for this release. Public aggregate checks cannot verify original predictions, exact percentiles or private log assignments. The two model reruns used authorized data and are not publicly reproducible without it. The final packaging changes are documentation, metadata, exclusion of a sensitive export utility and removal of extrema columns; the Python verifier was rerun on the final tables. MATLAB was run on the candidate before these packaging changes, not on the final ZIP. No training code was changed.
+No fresh full ten-fold retraining or reverse-direction rerun was performed for this release. Public aggregate checks cannot verify original predictions, exact percentiles or private log assignments. The two model reruns used authorized data and are not publicly reproducible without it. The final packaging changes are documentation, metadata, exclusion of a sensitive export utility and removal of extrema columns; the Python verifier was rerun on the final tables. MATLAB aggregate checks subsequently passed for all eight methods on the final package and the downloaded GitHub snapshot. All 67 entries in the pre-finalization GitHub checksum manifest matched. No training code was changed.
 
-Publication remains conditional on coauthor/data-owner approval, aggregate disclosure review and reconciliation with the final manuscript.
+The author confirmed public release of supplementary software and aggregate tables on 24 November 2026. Restricted inputs remain subject to separate authorization. Final manuscript reconciliation and archival DOI confirmation remain outstanding.

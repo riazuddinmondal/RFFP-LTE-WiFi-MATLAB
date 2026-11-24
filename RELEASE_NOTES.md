@@ -1,6 +1,6 @@
 # Release notes
 
-## v0.1.3 — Prepared snapshot (approval pending)
+## v0.1.3 — Supplementary source and aggregate verification
 
 Adds compact MLP/ELM and cross-campaign sources, aggregate verification tables, MATLAB/Python checks and author-side verification report. Excludes the restricted-data export utility and exact extrema columns. No experimental training code changed. New DOI pending publication.
 

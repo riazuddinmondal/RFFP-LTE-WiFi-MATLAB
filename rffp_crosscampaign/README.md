@@ -1,4 +1,4 @@
-# Cross-campaign source code — review candidate
+# Cross-campaign source code — v0.1.3
 
 The six evaluated transfer pipelines are **LSBoost, tuned DNN, compact MLP, ELM, global FastKAN and hierarchical FastKAN**. Global and hierarchical FastKAN are both calculated by `run_RFFP_Hierarchical_FastKAN_crosscampaign.m`. Two directions: direction 1 trains on 2014 and tests on 2015; direction 2 reverses the campaigns.
 

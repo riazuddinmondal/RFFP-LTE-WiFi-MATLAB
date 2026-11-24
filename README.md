@@ -3,7 +3,7 @@
 MATLAB implementations and evaluation utilities for outdoor LTE/Wi-Fi radio-frequency fingerprint positioning (RFFP). The framework compares LSBoost, KNN, agglomerative hierarchical clustering (AHC), fuzzy c-means (FCM), a tuned deep neural network (DNN), hierarchical FastKAN, compact MLP and ELM using route-grouped evaluation. Six pipelines are also evaluated across campaigns.
 
 **Repository:** https://github.com/riazuddinmondal/RFFP-LTE-WiFi-MATLAB  
-**Software version:** 0.1.3 (prepared for release; approval pending)  
+**Software version:** 0.1.3  
 **License:** MIT (software only)
 
 ## Contents
@@ -70,7 +70,7 @@ The original and processed RF fingerprint datasets and other restricted research
 
 ## Supplementary source and aggregate verification (v0.1.3)
 
-Additional original MATLAB entry points for compact MLP/ELM ten-fold and bidirectional cross-campaign experiments are included in `rffp_lightweight/` and `rffp_crosscampaign/`. Aggregate-only public verification is in `public_verification_v0.1.3/`. See `SOURCE_REVIEW_v0.1.3.md` for audit scope and outstanding checks. **This ZIP is not an approved or published release; original v0.1.2 archival DOI does not cover these additions.** No restricted input data or saved prediction arrays are distributed.
+Additional original MATLAB entry points for compact MLP/ELM ten-fold and bidirectional cross-campaign experiments are included in `rffp_lightweight/` and `rffp_crosscampaign/`. Aggregate-only public verification is in `public_verification_v0.1.3/`. See `SOURCE_REVIEW_v0.1.3.md` for audit scope and outstanding checks. **The original v0.1.2 archival DOI does not cover these additions. The v0.1.3 DOI will be recorded after deposit.** No restricted input data or saved prediction arrays are distributed.
 
 ## Verification on 24 November 2026
 
